@@ -97,6 +97,13 @@ nav .nav-link{
 }
 
 /**********Formulaire**************/
+#formulaire{}
+.containerForm .col-12 h1{text-align: center;}
+span{font-weight: bold;}
+.row{}
+.col{}
+.form-control{}
+.btn-primary {}
 /**********Footer**************/
 
 
