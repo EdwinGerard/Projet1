@@ -1,8 +1,34 @@
 /**********NavBar**************/
+nav .img-fluid{
+	max-width: 60px;
+}
+nav {
+	font-size:1.2em;
+}
+
+nav ul.navbar-nav{
+	width:80%;
+}
+
+nav .nav-link{
+	/*padding: 1rem 50rem;*/
+}
 /**********Appel**************/
 /**********Possible**************/
 /**********Pourquoi**************/
+/********** interaction *********/
+#interaction {
+	background-image: url(image/fonctionnement-temp.jpg);	
+	
+}
 /**********Fonctionnement**************/
+
+
 /**********Gnous**************/
+#gnous{
+	background-image: url(image/labo.jpg);	
+	
+}
+
 /**********Formulaire**************/
 /**********Footer**************/
