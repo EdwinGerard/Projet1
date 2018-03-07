@@ -1,4 +1,18 @@
 /**********NavBar**************/
+nav .img-fluid{
+	max-width: 60px;
+}
+nav {
+	font-size:1.2em;
+}
+
+nav ul.navbar-nav{
+	width:80%;
+}
+
+nav .nav-link{
+	/*padding: 1rem 50rem;*/
+}
 /**********Appel**************/
 .fullscreen {
 	background-size: cover;
@@ -33,7 +47,42 @@
 	box-shadow: inset 0px 10px 30px rgba(0, 0, 0, 0.1);
 }
 
+/********** interaction *********/
+#interaction {
+	background-image: url(image/fonctionnement-temp.jpg);	
+	
+}
+
 /**********Fonctionnement**************/
+
+#fonctionnement ul{
+	list-style: ;
+	font-size: calc(14px + 10 * (100vw - 400px) / 1200);
+	color: white;
+	display: inline-block;
+}
+#fonctionnement h2 {
+	font-size: calc(18px + 30 * (100vw - 400px) / 1200);
+	color: white;
+}
+#fonctionnement p {
+	font-size: calc(14px + 10 * (100vw - 400px) / 1200);
+	color: white;
+}
+#fonctionnement {
+	background-image: url(image/blue_tech.png);
+	background-repeat: no-repeat;
+}
+#fonctionnement .fonction{
+	background-color: #11ffee00;
+	border: 0;
+}
+
 /**********Gnous**************/
+#gnous{
+	background-image: url(image/labo.jpg);	
+	
+}
+
 /**********Formulaire**************/
 /**********Footer**************/
