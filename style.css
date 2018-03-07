@@ -52,8 +52,17 @@ nav .nav-link{
 
 /********** interaction *********/
 #interaction {
-	background-image: url(image/fonctionnement.jpg);	
+	background-image: url(image/fonctionnement.jpg);
 	
+}
+
+#interaction div {
+	opacity: 0;
+}
+
+.img-fullscreen {	
+	max-height: 100vh;
+
 }
 
 /**********Fonctionnement**************/
@@ -89,3 +98,17 @@ nav .nav-link{
 
 /**********Formulaire**************/
 /**********Footer**************/
+
+
+
+/* *************** MEDIA ****************** **/
+@media (max-width: 576px) and (orientation: portrait) {
+#gnous , #interaction {
+	background:none;
+	height:auto;
+}
+#gnous div , #interaction div{
+	opacity: 1;
+}
+
+}
