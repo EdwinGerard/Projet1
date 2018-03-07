@@ -3,6 +3,28 @@
 /**********Possible**************/
 /**********Pourquoi**************/
 /**********Fonctionnement**************/
+#fonctionnement ul{
+	list-style: ;
+	font-size: calc(14px + 10 * (100vw - 400px) / 1200);
+	color: white;
+	display: inline-block;
+}
+#fonctionnement h2 {
+	font-size: calc(18px + 30 * (100vw - 400px) / 1200);
+	color: white;
+}
+#fonctionnement p {
+	font-size: calc(14px + 10 * (100vw - 400px) / 1200);
+	color: white;
+}
+#fonctionnement {
+	background-image: url(image/blue_tech.png);
+	background-repeat: no-repeat;
+}
+#fonctionnement .fonction{
+	background-color: #11ffee00;
+	border: 0;
+}
 /**********Gnous**************/
 /**********Formulaire**************/
 /**********Footer**************/
