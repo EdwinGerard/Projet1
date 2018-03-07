@@ -1,9 +1,12 @@
 /**********NavBar**************/
+header {
+	position:relative;
+}
 nav .img-fluid{
 	max-width: 60px;
 }
 nav {
-	font-size:1.2em;
+	/*font-size:1.2em;*/
 }
 
 nav ul.navbar-nav{
@@ -26,7 +29,7 @@ nav .nav-link{
 
 
 #appel {
-	background-image: url(image/foret_1.jpg);
+	background-image: url(image/foret1.jpg);
 	padding-bottom: 400px;
 }
 
@@ -49,7 +52,7 @@ nav .nav-link{
 
 /********** interaction *********/
 #interaction {
-	background-image: url(image/fonctionnement-temp.jpg);	
+	background-image: url(image/fonctionnement.jpg);	
 	
 }
 
