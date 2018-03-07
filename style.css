@@ -1,7 +1,38 @@
 /**********NavBar**************/
 /**********Appel**************/
+.fullscreen {
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+}
+
+
+#appel {
+	background-image: url(image/foret_1.jpg);
+	padding-bottom: 400px;
+}
+
 /**********Possible**************/
+
+#possible {
+	background-image: url(image/cerf_tete2.png);
+	padding-top: 600px;
+}
+
 /**********Pourquoi**************/
+
+#pourquoi {
+	height: 300px;
+	padding-left :50px;
+	padding-right: 50px;
+	background-color: #E6E6E6;
+	box-shadow: inset 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
 /**********Fonctionnement**************/
 /**********Gnous**************/
 /**********Formulaire**************/
