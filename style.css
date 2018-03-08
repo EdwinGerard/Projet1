@@ -58,19 +58,25 @@ nav .nav-link{
 #fonctionnement ul{
 	list-style: ;
 	font-size: calc(14px + 10 * (100vw - 400px) / 1200);
-	color: white;
+	color: black;
 	display: inline-block;
 }
 #fonctionnement h2 {
-	font-size: calc(18px + 30 * (100vw - 400px) / 1200);
-	color: white;
+	font-size: calc(18px + 25 * (100vw - 400px) / 1200);
+	color: black;
+	text-align: center;
+}
+#fonctionnement h3 {
+	font-size: calc(18px + 25 * (100vw - 400px) / 1200);
+	color: black;
 }
 #fonctionnement p {
-	font-size: calc(14px + 10 * (100vw - 400px) / 1200);
-	color: white;
+	color: black;
+	text-align: center;
 }
 #fonctionnement {
-	background-image: url(image/blue_tech.png);
+	background-image: url("image/blue_tech.jpg");
+	/*background-image: radial-gradient( farthest-corner ellipse at center, white, #E5E3E2);*/
 	background-repeat: no-repeat;
 }
 #fonctionnement .fonction{
@@ -86,3 +92,10 @@ nav .nav-link{
 
 /**********Formulaire**************/
 /**********Footer**************/
+/**********General*************/
+p{
+	font-size: calc(14px + 10 * (100vw - 400px) / 1200);
+}
+h1{
+	font-size: calc(18px + 30 * (100vw - 400px) / 1200);
+}
