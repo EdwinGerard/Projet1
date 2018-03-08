@@ -39,13 +39,15 @@ nav .nav-link{
 
 
 #appel {
-	background-image: url(image/foret_1.jpg);
+	background-image: url(image/foret1.jpg);
 }
 
 /**********Possible**************/
 
 #possible {
 	background-image: url(image/cerf_tete2.png);
+	background-color: #E6E6E6;
+	box-shadow: inset 0px 10px 30px rgba(0, 0, 0, 0.1);
 
 }
 
