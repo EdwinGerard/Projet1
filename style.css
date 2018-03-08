@@ -1,11 +1,11 @@
-@font-face {
-	font-family: "blabla";
-	src: url(blabla.ttf);
+h1 {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;
 }
 
-h1 {
-	font-family: "blabla";
-	letter-spacing: 1px;
+* {
+	font-family: 'Muli', sans-serif;
 }
 
 /**********NavBar**************/
@@ -17,6 +17,7 @@ nav .img-fluid{
 }
 nav {
 	/*font-size:1.2em;*/
+	text-transform: uppercase;
 }
 
 nav ul.navbar-nav{
@@ -39,7 +40,7 @@ nav .nav-link{
 
 
 #appel {
-	background-image: url(image/foret_1.jpg);
+	background-image: url(image/foret1.jpg);
 }
 
 /**********Possible**************/
