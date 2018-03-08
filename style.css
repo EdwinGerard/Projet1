@@ -9,11 +9,14 @@ h1 {
 }
 
 /**********NavBar**************/
+header {
+	position:relative;
+}
 nav .img-fluid{
 	max-width: 60px;
 }
 nav {
-	font-size:1.2em;
+	/*font-size:1.2em;*/
 }
 
 nav ul.navbar-nav{
@@ -57,8 +60,17 @@ nav .nav-link{
 
 /********** interaction *********/
 #interaction {
-	background-image: url(image/fonctionnement-temp.jpg);	
+	background-image: url(image/fonctionnement.jpg);
 	
+}
+
+#interaction div, #gnous div {
+	opacity: 0;
+}
+
+.img-fullscreen {	
+	max-height: 100vh;
+
 }
 
 /**********Fonctionnement**************/
@@ -93,4 +105,25 @@ nav .nav-link{
 }
 
 /**********Formulaire**************/
+#formulaire{}
+.containerForm .col-12 h1{text-align: center;}
+span{font-weight: bold;}
+.row{}
+.col{}
+.form-control{}
+.btn-primary {}
 /**********Footer**************/
+
+
+
+/* *************** MEDIA ****************** **/
+@media (max-width: 576px) and (orientation: portrait) {
+#gnous , #interaction {
+	background:none;
+	height:auto;
+}
+#gnous div , #interaction div{
+	opacity: 1;
+}
+
+}
