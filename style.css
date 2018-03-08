@@ -27,14 +27,14 @@ nav .nav-link{
 
 #appel {
 	background-image: url(image/foret_1.jpg);
-	padding-bottom: 400px;
+	
 }
 
 /**********Possible**************/
 
 #possible {
 	background-image: url(image/cerf_tete2.png);
-	padding-top: 600px;
+	
 }
 
 /**********Pourquoi**************/
@@ -58,24 +58,24 @@ nav .nav-link{
 #fonctionnement ul{
 	list-style: ;
 	font-size: calc(14px + 10 * (100vw - 400px) / 1200);
-	color: black;
+	color: white;
 	display: inline-block;
 }
 #fonctionnement h2 {
 	font-size: calc(18px + 25 * (100vw - 400px) / 1200);
-	color: black;
+	color: white;
 	text-align: center;
 }
 #fonctionnement h3 {
 	font-size: calc(18px + 25 * (100vw - 400px) / 1200);
-	color: black;
+	color: white;
 }
 #fonctionnement p {
-	color: black;
+	color: white;
 	text-align: center;
 }
 #fonctionnement {
-	background-image: url("image/blue_tech.jpg");
+	background-image: url("image/blue_tech.png");
 	/*background-image: radial-gradient( farthest-corner ellipse at center, white, #E5E3E2);*/
 	background-repeat: no-repeat;
 }
@@ -83,7 +83,9 @@ nav .nav-link{
 	background-color: #11ffee00;
 	border: 0;
 }
-
+.caracteristiques {
+	text-align: left;
+}
 /**********Gnous**************/
 #gnous{
 	background-image: url(image/labo.jpg);	
