@@ -109,7 +109,9 @@ nav .nav-link{
 	text-align: left;
 }
 /**********Gnous**************/
-
+#gnous {
+background-image: url(image/labo.jpg);
+}
 
 /**********Formulaire**************/
 #formulaire{
