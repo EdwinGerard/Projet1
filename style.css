@@ -36,7 +36,7 @@ nav .nav-link{
 /**********Possible**************/
 
 #possible {
-	background-image: url(image/cerf_tete2.png);
+	background-image: url(image/cerf_tete2ombre.png);
 	
 }
 
@@ -70,25 +70,24 @@ nav .nav-link{
 #fonctionnement ul{
 	list-style: ;
 	font-size: calc(14px + 10 * (100vw - 400px) / 1200);
-	color: white;
+	color: black;
 	display: inline-block;
 }
 #fonctionnement h2 {
 	font-size: calc(18px + 25 * (100vw - 400px) / 1200);
-	color: white;
+	color: black;
 	text-align: center;
 }
 #fonctionnement h3 {
 	font-size: calc(18px + 25 * (100vw - 400px) / 1200);
-	color: white;
+	color: black;
 }
 #fonctionnement p {
-	color: white;
+	color: black;
 	text-align: center;
 }
 #fonctionnement {
-	background-image: url("image/blue_tech.png");
-	/*background-image: radial-gradient( farthest-corner ellipse at center, white, #E5E3E2);*/
+	background-image: radial-gradient( farthest-corner ellipse at center, white, #E5E3E2);
 	background-repeat: no-repeat;
 }
 #fonctionnement .fonction{
@@ -99,20 +98,32 @@ nav .nav-link{
 	text-align: left;
 }
 /**********Gnous**************/
-#gnous{
-	background-image: url(image/labo.jpg);	
-	
-}
+
 
 /**********Formulaire**************/
-#formulaire{}
-.containerForm .col-12 h1{text-align: center;}
-span{font-weight: bold;}
-.row{}
-.col{}
-.form-control{}
-.btn-primary {}
+#formulaire{
+
+}
+.containerForm .col-12 h1{
+	text-align: center;
+}
+span{
+	font-weight: bold;
+}
+.row{
+
+}
+.col{
+
+}
+.form-control{
+
+}
+.btn-primary {
+
+}
 /**********Footer**************/
+
 
 /**********General*************/
 p{
@@ -121,8 +132,9 @@ p{
 h1{
 	font-size: calc(18px + 30 * (100vw - 400px) / 1200);
 
+}
+/**************** MEDIA ********************/
 
-/* *************** MEDIA ****************** **/
 @media (max-width: 576px) and (orientation: portrait) {
 
 	#gnous , #interaction {
