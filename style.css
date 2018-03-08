@@ -47,6 +47,9 @@ nav .nav-link{
 
 #possible {
 	background-image: url(image/cerf_tete2.png);
+	background-color: #E6E6E6;
+	box-shadow: inset 0px 10px 30px rgba(0, 0, 0, 0.1);
+
 }
 
 /**********Pourquoi**************/
@@ -79,52 +82,78 @@ nav .nav-link{
 #fonctionnement ul{
 	list-style: ;
 	font-size: calc(14px + 10 * (100vw - 400px) / 1200);
-	color: white;
+	color: black;
 	display: inline-block;
 }
 #fonctionnement h2 {
-	font-size: calc(18px + 30 * (100vw - 400px) / 1200);
-	color: white;
+	font-size: calc(18px + 25 * (100vw - 400px) / 1200);
+	color: black;
+	text-align: center;
+}
+#fonctionnement h3 {
+	font-size: calc(18px + 25 * (100vw - 400px) / 1200);
+	color: black;
 }
 #fonctionnement p {
-	font-size: calc(14px + 10 * (100vw - 400px) / 1200);
-	color: white;
+	color: black;
+	text-align: center;
 }
 #fonctionnement {
-	background-image: url(image/blue_tech.png);
+	background-image: radial-gradient( farthest-corner ellipse at center, white, #E5E3E2);
 	background-repeat: no-repeat;
 }
 #fonctionnement .fonction{
 	background-color: #11ffee00;
 	border: 0;
 }
-
-/**********Gnous**************/
-#gnous{
-	background-image: url(image/labo.jpg);	
-	
+.caracteristiques {
+	text-align: left;
 }
+/**********Gnous**************/
+
 
 /**********Formulaire**************/
-#formulaire{}
-.containerForm .col-12 h1{text-align: center;}
-span{font-weight: bold;}
-.row{}
-.col{}
-.form-control{}
-.btn-primary {}
+#formulaire{
+
+}
+.containerForm .col-12 h1{
+	text-align: center;
+}
+span{
+	font-weight: bold;
+}
+.row{
+
+}
+.col{
+
+}
+.form-control{
+
+}
+.btn-primary {
+
+}
 /**********Footer**************/
 
 
+/**********General*************/
+p{
+	font-size: calc(14px + 10 * (100vw - 400px) / 1200);
+}
+h1{
+	font-size: calc(18px + 30 * (100vw - 400px) / 1200);
 
-/* *************** MEDIA ****************** **/
+}
+/**************** MEDIA ********************/
+
 @media (max-width: 576px) and (orientation: portrait) {
-#gnous , #interaction {
-	background:none;
-	height:auto;
-}
-#gnous div , #interaction div{
-	opacity: 1;
-}
 
+	#gnous , #interaction {
+		background:none;
+		height:auto;
+	}
+	#gnous div , #interaction div{
+		opacity: 1;
+	}
 }
