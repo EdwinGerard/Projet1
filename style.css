@@ -1,3 +1,13 @@
+@font-face {
+	font-family: "blabla";
+	src: url(blabla.ttf);
+}
+
+h1 {
+	font-family: "blabla";
+	letter-spacing: 1px;
+}
+
 /**********NavBar**************/
 nav .img-fluid{
 	max-width: 60px;
@@ -27,14 +37,12 @@ nav .nav-link{
 
 #appel {
 	background-image: url(image/foret_1.jpg);
-	padding-bottom: 400px;
 }
 
 /**********Possible**************/
 
 #possible {
 	background-image: url(image/cerf_tete2.png);
-	padding-top: 600px;
 }
 
 /**********Pourquoi**************/
