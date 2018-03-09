@@ -1,11 +1,14 @@
-h1 {
+/**********General*************/
+p{
+	font-size: calc(14px + 10 * (100vw - 400px) / 1200);
+	font-family: 'Muli', sans-serif;
+}
+h1{
+	font-size: calc(18px + 30 * (100vw - 400px) / 1200);
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-}
 
-* {
-	font-family: 'Muli', sans-serif;
 }
 
 /**********NavBar**************/
@@ -136,15 +139,6 @@ span{
 }
 /**********Footer**************/
 
-
-/**********General*************/
-p{
-	font-size: calc(14px + 10 * (100vw - 400px) / 1200);
-}
-h1{
-	font-size: calc(18px + 30 * (100vw - 400px) / 1200);
-
-}
 /**************** MEDIA ********************/
 
 @media (max-width: 576px) and (orientation: portrait) {
