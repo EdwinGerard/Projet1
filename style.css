@@ -78,11 +78,19 @@ nav .nav-link{
 /**********Pourquoi**************/
 
 #pourquoi {
-	height: 300px;
-	padding-left :50px;
-	padding-right: 50px;
 	background-color: #E6E6E6;
 	box-shadow: inset 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.bloc-left {
+	text-align: right;
+	border-right: #fc6020 solid 3px;
+	padding-right: 35px;
+}
+
+.bloc-right {
+	text-align: left;
+	padding-left: 35px;
 }
 
 /********** interaction *********/
@@ -116,7 +124,7 @@ nav .nav-link{
 	color: black;
 }
 #fonctionnement {
-	background-image: radial-gradient( farthest-corner ellipse at center, white, #E5E3E2);
+	background-image: radial-gradient( farthest-corner ellipse at center, white, #D6D6D6);
 	background-repeat: no-repeat;
 }
 #fonctionnement .fonction{
