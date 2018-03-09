@@ -11,6 +11,14 @@ h1{
 	text-transform: uppercase;
 }
 
+h2 {
+	font-size: calc(18px + 25 * (100vw - 400px) / 1200);
+}
+
+h3 {
+	font-size: calc(18px + 25 * (100vw - 400px) / 1200);
+}
+
 /**********NavBar**************/
 header {
 	position:relative;
@@ -100,18 +108,12 @@ nav .nav-link{
 	color: black;
 	display: inline-block;
 }
-#fonctionnement h2 {
-	font-size: calc(18px + 25 * (100vw - 400px) / 1200);
+#fonctionnement h2, #fonctionnement p {
 	color: black;
 	text-align: center;
 }
 #fonctionnement h3 {
-	font-size: calc(18px + 25 * (100vw - 400px) / 1200);
 	color: black;
-}
-#fonctionnement p {
-	color: black;
-	text-align: center;
 }
 #fonctionnement {
 	background-image: radial-gradient( farthest-corner ellipse at center, white, #E5E3E2);
@@ -125,7 +127,9 @@ nav .nav-link{
 	text-align: left;
 }
 /**********Gnous**************/
-
+#gnous {
+background-image: url(image/labo.jpg);
+}
 
 /**********Formulaire**************/
 #formulaire{
