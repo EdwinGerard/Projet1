@@ -133,8 +133,24 @@ span{
 .btn-primary {
 
 }
-/**********Footer**************/
+/**********Footer*********/
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
 
+footer a{
+	color: white;
+  
+}
+
+.footer-title{
+padding-top: 2em;
+}
+.footer-bottom{
+	padding: 2em;
+}
 
 /**********General*************/
 p{
