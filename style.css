@@ -165,7 +165,34 @@ span{
 .btn-primary {
 
 }
-/**********Footer**************/
+/**********Footer*********/
+footer {
+	
+	color: #989898;
+	text-align: center;
+}
+
+footer a{
+	color: white;
+  
+}
+
+
+.footer-title{
+padding-top: 2em;
+}
+.footer-bottom{
+	padding: 2em;
+}
+
+/**********General*************/
+p{
+	font-size: calc(14px + 10 * (100vw - 400px) / 1200);
+}
+h1{
+	font-size: calc(18px + 30 * (100vw - 400px) / 1200);
+
+}
 
 /**************** MEDIA ********************/
 
