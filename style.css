@@ -98,13 +98,13 @@ nav .nav-link{
 }
 
 .bloc-up {
-	text-align: right;
+	text-align: center;
 	padding-right: 35px;
 	border-bottom: #fc6020 solid 3px;
 }
 
 .bloc-down {
-	text-align: left;
+	text-align: center;
 	padding-left: 35px;
 }
 
