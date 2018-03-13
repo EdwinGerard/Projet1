@@ -19,6 +19,24 @@ h3 {
 	font-size: calc(18px + 25 * (100vw - 400px) / 1200);
 }
 
+.container-fluid{
+	margin:0;padding:0;
+}
+
+.text-relative{
+	position: relative;
+}
+
+.text-absolute{
+	position:absolute;
+	z-index: 10;
+}
+
+.w-100{
+	width:100vw;
+}
+
+
 /**********NavBar**************/
 header {
 	position:relative;
@@ -59,6 +77,10 @@ nav .nav-link{
 	background-image: url(image/foret1.jpg);
 }
 
+#appel .text-absolute{
+	bottom:20%;
+}
+
 #appel h1 {
 	color: white;
 	text-shadow: 0px 0px 10px #343A40, 0px 0px 5px #343A40;
@@ -76,6 +98,11 @@ nav .nav-link{
 	background-image: url(image/cerf_tete2.png);
 	background-color: #E6E6E6;
 	box-shadow: inset 0px 10px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+#possible .text-absolute{
+	top:1%;
 
 }
 
@@ -97,14 +124,25 @@ nav .nav-link{
 	padding-left: 35px;
 }
 
+.bloc-up {
+	text-align: center;
+	padding-right: 35px;
+	border-bottom: #fc6020 solid 3px;
+}
+
+.bloc-down {
+	text-align: center;
+	padding-left: 35px;
+}
+
 /********** interaction *********/
 #interaction {
 	background-image: url(image/fonctionnement.jpg);
 	
 }
 
-#interaction div, #gnous div {
-	opacity: 0;
+#interaction .hack-vertical	, #gnous .hack-vertical {
+	display: none;
 }
 
 .img-fullscreen {	
@@ -113,34 +151,35 @@ nav .nav-link{
 }
 
 /**********Fonctionnement**************/
-
-#fonctionnement ul{
-	list-style: ;
-	font-size: calc(14px + 10 * (100vw - 400px) / 1200);
-	color: black;
-	display: inline-block;
+#fonctionnement .container {
+	max-width: 95vw;
 }
-#fonctionnement h2, #fonctionnement p {
+#fonctionnement p {
 	color: black;
 	text-align: center;
+	
 }
-#fonctionnement h3 {
-	color: black;
+#fonctionnement .delimiteur {
+	border-right: #fc6020 solid 3px;
+
 }
 #fonctionnement {
 	background-image: radial-gradient( farthest-corner ellipse at center, white, #D6D6D6);
 	background-repeat: no-repeat;
 }
-#fonctionnement .fonction{
-	background-color: #11ffee00;
-	border: 0;
-}
-.caracteristiques {
-	text-align: left;
+#fonctionnement .resize{
+	max-width: 50px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
 }
 /**********Gnous**************/
 #gnous {
 background-image: url(image/labo.jpg);
+}
+
+#gnous .text-absolute{
+	top:20%;
 }
 
 /**********Formulaire**************/
@@ -192,7 +231,8 @@ h1{
 		background:none;
 		height:auto;
 	}
-	#gnous div , #interaction div{
-		opacity: 1;
+	#gnous .hack-vertical , #interaction .hack-vertical{
+		/*opacity: 1;*/
+		display: block;
 	}
 }
