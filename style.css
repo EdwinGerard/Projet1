@@ -1,8 +1,248 @@
+/**********General*************/
+p{
+	font-size: calc(14px + 10 * (100vw - 400px) / 1200);
+	font-family: 'Muli', sans-serif;
+}
+
+h1{
+	font-size: calc(18px + 30 * (100vw - 400px) / 1200);
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: calc(18px + 25 * (100vw - 400px) / 1200);
+}
+
+h3 {
+	font-size: calc(18px + 25 * (100vw - 400px) / 1200);
+}
+
+.container-fluid{
+	margin:0;padding:0;
+}
+
+.text-relative{
+	position: relative;
+}
+
+.text-absolute{
+	position:absolute;
+	z-index: 10;
+}
+
+.w-100{
+	width:100vw;
+}
+
+
 /**********NavBar**************/
+header {
+	position:relative;
+}
+
+nav .img-fluid{
+	max-width: 60px;
+}
+
+
+
+nav {
+	text-transform: uppercase;
+	/*opacity: 0.9;*/
+	 background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav ul.navbar-nav{
+	width:80%;
+}
+
+nav .nav-link{
+	/*padding: 1rem 50rem;*/
+}
 /**********Appel**************/
+.fullscreen {
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+}
+
+
+#appel {
+	background-image: url(image/foret1.jpg);
+}
+
+#appel .text-absolute{
+	bottom:20%;
+}
+
+#appel h1 {
+	color: white;
+	text-shadow: 0px 0px 10px #343A40, 0px 0px 5px #343A40;
+	font-size: 4em;
+}
+
+#appel p {
+	color: white;
+	text-shadow: 0px 0px 7px #343A40, 0px 0px 2px #343A40;
+}
+
 /**********Possible**************/
+
+#possible {
+	background-image: url(image/cerf_tete2.png);
+	background-color: #E6E6E6;
+	box-shadow: inset 0px 10px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+#possible .text-absolute{
+	top:1%;
+
+}
+
 /**********Pourquoi**************/
+
+#pourquoi {
+	background-color: #E6E6E6;
+	box-shadow: inset 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.bloc-left {
+	text-align: right;
+	border-right: #fc6020 solid 3px;
+	padding-right: 35px;
+}
+
+.bloc-right {
+	text-align: left;
+	padding-left: 35px;
+}
+
+.bloc-up {
+	text-align: center;
+	padding-right: 35px;
+	border-bottom: #fc6020 solid 3px;
+}
+
+.bloc-down {
+	text-align: center;
+	padding-left: 35px;
+}
+
+/********** interaction *********/
+#interaction {
+	background-image: url(image/fonctionnement.jpg);
+	
+}
+
+#interaction .hack-vertical	, #gnous .hack-vertical {
+	display: none;
+}
+
+.img-fullscreen {	
+	max-height: 100vh;
+
+}
+
 /**********Fonctionnement**************/
+#fonctionnement .container {
+	max-width: 95vw;
+}
+#fonctionnement p {
+	color: black;
+	text-align: center;
+	
+}
+#fonctionnement .delimiteur {
+	border-right: #fc6020 solid 3px;
+
+}
+#fonctionnement {
+	background-image: radial-gradient( farthest-corner ellipse at center, white, #D6D6D6);
+	background-repeat: no-repeat;
+}
+#fonctionnement .resize{
+	max-width: 50px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
 /**********Gnous**************/
+#gnous {
+background-image: url(image/labo.jpg);
+}
+
+#gnous .text-absolute{
+	top:20%;
+}
+
 /**********Formulaire**************/
-/**********Footer**************/
+#formulaire{
+
+}
+.containerForm .col-12 h1{
+	text-align: center;
+}
+span{
+	font-weight: bold;
+}
+.row{
+
+}
+.col{
+
+}
+.form-control{
+
+}
+.btn-primary {
+
+}
+/**********Footer*********/
+footer {
+	
+	color: #989898;
+	text-align: center;
+}
+
+footer a{
+	color: white;
+  
+}
+
+
+.footer-title{
+padding-top: 2em;
+}
+.footer-bottom{
+	padding: 2em;
+}
+
+/**********General*************/
+p{
+	font-size: calc(14px + 10 * (100vw - 400px) / 1200);
+}
+h1{
+	font-size: calc(18px + 30 * (100vw - 400px) / 1200);
+
+}
+
+/**************** MEDIA ********************/
+
+@media (max-width: 576px) and (orientation: portrait) {
+
+	#gnous , #interaction {
+		background:none;
+		height:auto;
+	}
+	#gnous .hack-vertical , #interaction .hack-vertical{
+		/*opacity: 1;*/
+		display: block;
+	}
+}
