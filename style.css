@@ -125,17 +125,14 @@ nav .nav-link{
 
 /**********Fonctionnement**************/
 
-#fonctionnement .d-none.d-sm-none.d-md-block.d-lg-block p {
+#fonctionnement p {
 	color: black;
 	text-align: center;
-	border-right: #fc6020 solid 3px;
-	padding-right: 10px;
+	
 }
-#fonctionnement .d-block.d-sm-block.d-md-none.d-lg-none p {
-	color: black;
-	text-align: center;
+#fonctionnement .delimiteur {
 	border-right: #fc6020 solid 3px;
-	padding-right: 10px;
+
 }
 #fonctionnement {
 	background-image: radial-gradient( farthest-corner ellipse at center, white, #D6D6D6);
