@@ -19,6 +19,24 @@ h3 {
 	font-size: calc(18px + 25 * (100vw - 400px) / 1200);
 }
 
+.container-fluid{
+	margin:0;padding:0;
+}
+
+.text-relative{
+	position: relative;
+}
+
+.text-absolute{
+	position:absolute;
+	z-index: 10;
+}
+
+.w-100{
+	width:100vw;
+}
+
+
 /**********NavBar**************/
 header {
 	position:relative;
@@ -59,6 +77,10 @@ nav .nav-link{
 	background-image: url(image/foret1.jpg);
 }
 
+#appel .text-absolute{
+	bottom:20%;
+}
+
 #appel h1 {
 	color: white;
 	text-shadow: 0px 0px 10px #343A40, 0px 0px 5px #343A40;
@@ -76,6 +98,11 @@ nav .nav-link{
 	background-image: url(image/cerf_tete2.png);
 	background-color: #E6E6E6;
 	box-shadow: inset 0px 10px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+#possible .text-absolute{
+	top:1%;
 
 }
 
@@ -103,8 +130,8 @@ nav .nav-link{
 	
 }
 
-#interaction div, #gnous div {
-	opacity: 0;
+#interaction .hack-vertical	, #gnous .hack-vertical {
+	display: none;
 }
 
 .img-fullscreen {	
@@ -141,6 +168,10 @@ nav .nav-link{
 /**********Gnous**************/
 #gnous {
 background-image: url(image/labo.jpg);
+}
+
+#gnous .text-absolute{
+	top:20%;
 }
 
 /**********Formulaire**************/
@@ -202,7 +233,8 @@ h1{
 		background:none;
 		height:auto;
 	}
-	#gnous div , #interaction div{
-		opacity: 1;
+	#gnous .hack-vertical , #interaction .hack-vertical{
+		/*opacity: 1;*/
+		display: block;
 	}
 }
