@@ -163,6 +163,13 @@ nav .nav-link{
 	border-right: #fc6020 solid 3px;
 
 }
+#fonctionnement .delimiteur-bottom {
+	border-bottom: #fc6020 solid 3px;
+
+}
+#fonctionnement .small-screen {
+	padding-top: 15px;
+}
 #fonctionnement {
 	background-image: radial-gradient( farthest-corner ellipse at center, white, #D6D6D6);
 	background-repeat: no-repeat;
