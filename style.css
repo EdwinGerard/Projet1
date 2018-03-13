@@ -152,6 +152,7 @@ background-image: url(image/labo.jpg);
 }
 span{
 	font-weight: bold;
+	color: #FF6600
 }
 .row{
 
@@ -165,25 +166,14 @@ span{
 .btn-primary {
 
 }
+
 /**********Footer*********/
-footer {
-	
+.mainfooter{
 	color: #989898;
 	text-align: center;
+	background-color: rgb(33, 37, 41);
 }
 
-footer a{
-	color: white;
-  
-}
-
-
-.footer-title{
-padding-top: 2em;
-}
-.footer-bottom{
-	padding: 2em;
-}
 
 /**********General*************/
 p{
