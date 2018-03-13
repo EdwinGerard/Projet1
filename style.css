@@ -124,6 +124,17 @@ nav .nav-link{
 	padding-left: 35px;
 }
 
+.bloc-up {
+	text-align: center;
+	padding-right: 35px;
+	border-bottom: #fc6020 solid 3px;
+}
+
+.bloc-down {
+	text-align: center;
+	padding-left: 35px;
+}
+
 /********** interaction *********/
 #interaction {
 	background-image: url(image/fonctionnement.jpg);
@@ -141,29 +152,24 @@ nav .nav-link{
 
 /**********Fonctionnement**************/
 
-#fonctionnement ul{
-	list-style: ;
-	font-size: calc(14px + 10 * (100vw - 400px) / 1200);
-	color: black;
-	display: inline-block;
-}
-#fonctionnement h2, #fonctionnement p {
+#fonctionnement p {
 	color: black;
 	text-align: center;
+	
 }
-#fonctionnement h3 {
-	color: black;
+#fonctionnement .delimiteur {
+	border-right: #fc6020 solid 3px;
+
 }
 #fonctionnement {
 	background-image: radial-gradient( farthest-corner ellipse at center, white, #D6D6D6);
 	background-repeat: no-repeat;
 }
-#fonctionnement .fonction{
-	background-color: #11ffee00;
-	border: 0;
-}
-.caracteristiques {
-	text-align: left;
+#fonctionnement .resize{
+	max-width: 50px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
 }
 /**********Gnous**************/
 #gnous {
