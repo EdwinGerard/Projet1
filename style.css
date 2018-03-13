@@ -151,7 +151,9 @@ nav .nav-link{
 }
 
 /**********Fonctionnement**************/
-
+#fonctionnement .container {
+	max-width: 95vw;
+}
 #fonctionnement p {
 	color: black;
 	text-align: center;
