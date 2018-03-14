@@ -36,6 +36,13 @@ h3 {
 	width:100vw;
 }
 
+.jumbotron{
+	/*border-radius:0;*/
+}
+
+.max-img{
+	max-width: 180px;
+}
 
 /**********NavBar**************/
 header {
@@ -51,7 +58,7 @@ nav .img-fluid{
 nav {
 	text-transform: uppercase;
 	/*opacity: 0.9;*/
-	 background-color: rgba(0, 0, 0, 0.7);
+	 background-color: rgba(0, 0, 0, 0.9); /* => voir la couleur a définir */
 }
 
 nav ul.navbar-nav{
@@ -64,6 +71,11 @@ nav .nav-link{
 
 .parallaxe{
 	background-attachment: fixed;
+}
+
+.bg-test{
+	background-color: rgba(0,0,0,0.1);
+
 }
 /**********Appel**************/
 .fullscreen {
@@ -107,12 +119,12 @@ nav .nav-link{
 }
 
 #possible .text-absolute{
-	bottom:20%;
+	bottom:6.5%;
 
 }
 
 /**********Pourquoi**************/
-
+/*
 #pourquoi {
 	background-color: #E6E6E6;
 	box-shadow: inset 0px 10px 30px rgba(0, 0, 0, 0.1);
@@ -138,9 +150,10 @@ nav .nav-link{
 .bloc-down {
 	text-align: center;
 	padding-left: 35px;
-}
+}*/
 
 /********** interaction *********/
+
 #interaction {
 	background-image: url(image/fonctionnement.jpg);	
 }
@@ -157,6 +170,7 @@ nav .nav-link{
 
 
 /**********Fonctionnement**************/
+/*
 #fonctionnement .container {
 	max-width: 95vw;
 }
@@ -178,20 +192,22 @@ nav .nav-link{
 }
 #fonctionnement {
 	background-image: radial-gradient( farthest-corner ellipse at center, white, #D6D6D6);
-	/*background-image: url(image/fonctionnement.jpg);*/
+	background-image: url(image/fonctionnement.jpg);
 	background-repeat: no-repeat;
 	
 }
+*/
 #fonctionnement .resize{
-	max-width: 50px;
-	height: auto;
-	display: block;
-	margin: 0 auto;
+	max-width: 100px;
+	/*height: auto;*/
+	/*display: block;*/
+	/*margin: 0 auto;*/
 }
-
+/*
 #fonctionnement .text-absolute{
 	bottom:20%;
 }
+*/
 /**********Gnous**************/
 #gnous {
 background-image: url(image/labo.jpg);
@@ -213,6 +229,8 @@ span{
 	color: #FF6600
 }
 .row{
+	margin-right: 0;
+	margin-left: 0;
 
 }
 .col{
@@ -229,7 +247,7 @@ span{
 .mainfooter{
 	color: #989898;
 	text-align: center;
-	background-color: rgb(33, 37, 41);
+	/*background-color: rgb(33, 37, 41);*/
 }
 
 
