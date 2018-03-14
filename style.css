@@ -61,8 +61,13 @@ nav ul.navbar-nav{
 nav .nav-link{
 	/*padding: 1rem 50rem;*/
 }
+
+.parallaxe{
+	background-attachment: fixed;
+}
 /**********Appel**************/
 .fullscreen {
+	
 	background-size: cover;
 	background-position: center;
 	text-align: center;
@@ -95,14 +100,14 @@ nav .nav-link{
 /**********Possible**************/
 
 #possible {
-	background-image: url(image/cerf_tete2.png);
+	/*background-image: url(image/cerf_tete2.png);*/
 	background-color: #E6E6E6;
 	box-shadow: inset 0px 10px 30px rgba(0, 0, 0, 0.1);
 
 }
 
 #possible .text-absolute{
-	top:1%;
+	bottom:20%;
 
 }
 
@@ -137,8 +142,7 @@ nav .nav-link{
 
 /********** interaction *********/
 #interaction {
-	background-image: url(image/fonctionnement.jpg);
-	
+	background-image: url(image/fonctionnement.jpg);	
 }
 
 #interaction .hack-vertical	, #gnous .hack-vertical {
@@ -149,6 +153,8 @@ nav .nav-link{
 	max-height: 100vh;
 
 }
+
+
 
 /**********Fonctionnement**************/
 #fonctionnement .container {
@@ -165,13 +171,19 @@ nav .nav-link{
 }
 #fonctionnement {
 	background-image: radial-gradient( farthest-corner ellipse at center, white, #D6D6D6);
+	/*background-image: url(image/fonctionnement.jpg);*/
 	background-repeat: no-repeat;
+	
 }
 #fonctionnement .resize{
 	max-width: 50px;
 	height: auto;
 	display: block;
 	margin: 0 auto;
+}
+
+#fonctionnement .text-absolute{
+	bottom:20%;
 }
 /**********Gnous**************/
 #gnous {
