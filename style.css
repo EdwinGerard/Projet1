@@ -6,11 +6,11 @@ p{
 	font-family: 'Muli', sans-serif;
 }
 
-h1{
+h1, h2, h3, h4{
 	/*font-size: calc(18px + 30 * (100vw - 400px) / 1200);*/
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	letter-spacing: 1px;
-	/*text-transform: uppercase;*/
+	text-transform: uppercase;
 }
 
 h2 {
@@ -64,13 +64,13 @@ h1.responsive-text{
 	
 }
 
-h1.shadow{
+/*h1.shadow{
 	text-shadow: 0px 0px 10px #343A40, 0px 0px calc(0.2vw + 4px) #343A40;
 }
 
 p.shadow{
 	text-shadow: 0px 0px 10px #343A40, 0px 0px calc(0.2vw + 1px) #343A40;
-}
+}*/
 
 .img-fluid-h{
 	max-width:100%;
@@ -97,7 +97,7 @@ nav .img-fluid{
 nav {
 	text-transform: uppercase;
 	/*opacity: 0.9;*/
-	 background-color: rgba(0, 0, 0, 0.9); /* => voir la couleur a définir */
+	 background-color: rgba(21, 23, 25, 0.9);/*rgba(0, 0, 0, 0.9);  => voir la couleur a définir */
 }
 
 nav ul.navbar-nav{
@@ -131,33 +131,32 @@ nav .nav-link{
 
 
 #appel {
-	background-image: url(image/foret1.jpg);
+	background-image: url(image/foret2.jpg);
 	color:black;
 }
 
 #appel .text-absolute{
-	bottom:45%;
+	bottom:40%;
 }
 
-/*
+
 #appel h1 {
 	color: white;
-	text-shadow: 0px 0px 10px #343A40, 0px 0px 5px #343A40;
-	font-size: 4em;
-}*/
+	text-shadow: 0px 0px 10px #151719, 0px 0px 5px #151719;
+}
 
-/*
+
 #appel p {
 	color: white;
-	text-shadow: 0px 0px 7px #343A40, 0px 0px 2px #343A40;
+	text-shadow: 0px 0px 7px #151719, 0px 0px 2px #151719;
 }
-*/	
+	
 
 /**********Possible**************/
 
 #possible {
-	/*background-image: url(image/cerf_tete2.png);*/
-	background-color: #E6E6E6;
+	background-image: url(image/bg4.jpg);
+	/*background-color: #E6E6E6;*/
 	box-shadow: inset 0px 10px 30px rgba(0, 0, 0, 0.1);
 
 }
@@ -242,12 +241,24 @@ nav .nav-link{
 	
 }
 */
+
+#fonctionnement {
+	background-image: url(image/bg4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 #fonctionnement .resize{
 	max-width: 100px;
 	/*height: auto;*/
 	/*display: block;*/
 	/*margin: 0 auto;*/
 }
+
+#fonctionnement h2 {
+
+}
+
 /*
 #fonctionnement .text-absolute{
 	bottom:20%;
@@ -305,4 +316,26 @@ h1{
 
 #formulaire {
 	width: 100%;
+	/*box-shadow:  inset 0px 10px 30px rgba(0, 0, 0, 0.1*/
+}
+
+.btn {
+	border: 1px solid #FF6600;
+	text-transform: uppercase;
+	font-family: 'Muli';
+}
+
+footer {
+		background-color: #151719;
+		padding-top: 10px;
+}
+
+footer a {
+	color: #ADB0B5;
+	text-transform: uppercase;
+}
+
+footer a:hover {
+	color: white;
+	text-decoration: none;
 }
