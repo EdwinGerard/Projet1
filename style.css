@@ -286,6 +286,10 @@ background-image: url(image/labo.jpg);
 	/*background-color: rgb(33, 37, 41);*/
 }
 
+.mainfooter a{
+	color: white;
+}
+
 
 /**********General*************/
 /*
