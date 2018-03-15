@@ -77,6 +77,12 @@ p.shadow{
 	max-height:100%;
 }
 
+.v-align{
+	 position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 /**********NavBar**************/
 header {
 	position:relative;
@@ -104,6 +110,8 @@ nav .nav-link{
 
 .parallaxe{
 	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
 }
 
 .bg-test{
@@ -112,14 +120,13 @@ nav .nav-link{
 }
 /**********Appel**************/
 .fullscreen {
-	
-	background-size: cover;
-	background-position: center;
+		/*background-size: cover;
+	background-position: center;*/
 	/*text-align: center;*/
 	/*display: flex;*/
 	/*flex-direction: column;*/
 	/*justify-content: center;*/
-	height: 100vh;
+	min-height: 100vh;
 }
 
 
