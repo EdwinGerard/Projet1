@@ -308,7 +308,7 @@ h1{
 
 	#gnous , #interaction {
 		background:none;
-		height:auto;
+		min-height:auto;
 	}
 	#gnous .hack-vertical , #interaction .hack-vertical{
 		/*opacity: 1;*/
