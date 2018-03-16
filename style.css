@@ -338,6 +338,12 @@ footer a:hover {
 	text-decoration: none;
 }
 
+#interaction-a{
+		position: absolute;
+		bottom: 0;
+		height: 0px;
+	}
+
 
 /**************** MEDIA ********************/
 
@@ -352,10 +358,8 @@ footer a:hover {
 		display: block;
 	}
 
-	#interaction-a{
-	position: absolute;
-	bottom: 0;
-	height: 85px;
-}
+	#interaction-a{		
+		height: 85px;
+	}
 }
 
