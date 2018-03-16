@@ -133,11 +133,12 @@ nav .nav-link{
 	min-height: 100vh;
 	/*min-height: 100vh;*/
 }
+/*
 .fullscreen-padding {
 	min-height: calc(100vh - 85px);
 	padding: 85px;
 }
-
+*/
 
 #appel {
 	background-image: url(image/foret2.jpg);
@@ -171,7 +172,7 @@ nav .nav-link{
 }
 
 #possible .text-absolute{
-	bottom:6.5%;
+	bottom:4%;
 
 }
 
@@ -274,13 +275,6 @@ nav .nav-link{
 }
 */
 /**********Gnous**************/
-#gnous {
-background-image: url(image/labo.jpg);
-}
-
-#gnous .text-absolute{
-	top:20%;
-}
 
 
 
@@ -292,13 +286,17 @@ background-image: url(image/labo.jpg);
 	/*background-color: rgb(33, 37, 41);*/
 }
 .footer-title span{
-	color: #FF6600
+	color: #FF6600;
+
 }
 
 #reserver {
 	color: white;
 }
 
+.footer-title{
+		margin-top: 85px;
+}
 
 /**********General*************/
 /*
@@ -310,25 +308,14 @@ h1{
 
 }*/
 
-/**************** MEDIA ********************/
-
-@media (max-width: 576px) and (orientation: portrait) {
-
-	#gnous , #interaction {
-		background:none;
-		min-height:auto;
-	}
-	#gnous .hack-vertical , #interaction .hack-vertical{
-		/*opacity: 1;*/
-		display: block;
-	}
-}
 
 
 #formulaire {
 	width: 100%;
 	/*box-shadow:  inset 0px 10px 30px rgba(0, 0, 0, 0.1*/
 }
+
+
 
 .btn {
 	border: 1px solid #FF6600;
@@ -343,10 +330,32 @@ footer {
 
 footer a {
 	color: #ADB0B5;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 footer a:hover {
 	color: white;
 	text-decoration: none;
 }
+
+
+/**************** MEDIA ********************/
+
+@media (max-width: 576px) and (orientation: portrait) {
+
+	#gnous , #interaction {
+		background:none;
+		min-height:auto;
+	}
+	#gnous .hack-vertical , #interaction .hack-vertical{
+		/*opacity: 1;*/
+		display: block;
+	}
+
+	#interaction-a{
+	position: absolute;
+	bottom: 0;
+	height: 85px;
+}
+}
+
