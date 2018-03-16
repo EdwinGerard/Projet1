@@ -344,6 +344,10 @@ footer a:hover {
 		height: 0px;
 	}
 
+.text-footer{
+	font-size: calc(0.7rem + 0.2vw);
+
+}
 
 /**************** MEDIA ********************/
 
@@ -358,7 +362,7 @@ footer a:hover {
 		display: block;
 	}
 
-	#interaction-a{		
+	#interaction-a{			
 		height: 85px;
 	}
 }
