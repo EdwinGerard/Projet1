@@ -1,6 +1,8 @@
 /**********General*************/
 body{
- padding-top: 85px;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
 }
 p{
 	/*font-size: calc(14px + 10 * (100vw - 400px) / 1200);*/
@@ -127,7 +129,13 @@ nav .nav-link{
 	/*display: flex;*/
 	/*flex-direction: column;*/
 	/*justify-content: center;*/
+	/*min-height: calc(100vh - 85px);*/
+	min-height: 100vh;
+	/*min-height: 100vh;*/
+}
+.fullscreen-padding {
 	min-height: calc(100vh - 85px);
+	padding: 85px;
 }
 
 
